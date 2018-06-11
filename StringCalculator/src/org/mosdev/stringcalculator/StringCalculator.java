@@ -33,6 +33,7 @@ public class StringCalculator {
                 case '-':
                 case '+':
                 case '*':
+                case 'x':
                 case '/':
                 case '(':
                 case ')':
@@ -197,6 +198,7 @@ public class StringCalculator {
                     case "^":
                     case "%":
                     case "*":
+                    case "x":
                     case "/":
                         nextOperationPosition = i;
                         break;
@@ -216,6 +218,7 @@ public class StringCalculator {
             // Parse value from String / Check for Bin or Hex
             switch (values.get(i)) {
                 case "*":
+                case "x":
                     result = Double.parseDouble(parseValue(values.get(i - 1))) * Double.parseDouble(parseValue(values.get(i + 1)));
                     index = i;
                     break;
