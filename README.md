@@ -13,8 +13,8 @@ Calculates an operation inside of a String variable.
 
 # How it works...
 
- Preparing: Remove spaces
- 1.: Remove brackets... And calculate inside of bracket
+ Preparing: Remove spaces\n
+ 1.: Remove brackets... And calculate inside of bracket\n
  2.: Calculate Operations with one value (eg. pi) or one value and one operator (eg. 4² or √9)
  3.: Calculate Multiplication, Division, Modulu first!
  4.: Calculate Addition and Subtraction
