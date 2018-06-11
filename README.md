@@ -24,6 +24,6 @@ Calculates an operation inside of a String variable.
  String operation = "√(9*2)*2²*(5*(4+10)*2-5*8+(2*4*(1+1)))";<br>
  String result = calculator.calculate(operation);<br>
  System.out.println(operation + " = " + result);<br>
- <br>
- # Output:<br>
+
+# Output:<br>
  √(9*2)*2²*(5*(4+10)*2-5*8+(2*4*(1+1))) = 1968.585278823348<br>
