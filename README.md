@@ -10,6 +10,7 @@ Calculates an operation inside of a String variable.
 * result contains true|false when operation contains one of this operators < <= = >= >
 
 # Hint: There is no error handling!! When you send wrong operations, java crashes with exception!
+# Note: StringCalculator does not support calculations like pow(4,4) at this point. It is really simple to implement that, but this library is just an example how String calculation works!!
 
 # How it works...
 
