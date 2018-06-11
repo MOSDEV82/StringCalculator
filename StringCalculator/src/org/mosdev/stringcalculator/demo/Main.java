@@ -16,7 +16,7 @@ public class Main {
      * Sample project
      */
     private void run() {
-        String operation = "√(9*2)*2²*(5*(4+10)*2-5*8+(2*4*(1+1)))>";
+        String operation = "√(9*2)*2²*(5*(4+10)*2-5*8+(2*4*(1+1)))";
         StringCalculator stringCalculator = new StringCalculator();
 
         String result = stringCalculator.calculate(operation);
