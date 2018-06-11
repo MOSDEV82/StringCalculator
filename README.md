@@ -18,4 +18,12 @@ Calculates an operation inside of a String variable.
  2.: Calculate Operations with one value (eg. pi) or one value and one operator (eg. 4² or √9)<br>
  3.: Calculate Multiplication, Division, Modulu first!<br>
  4.: Calculate Addition and Subtraction<br>
- Output: √(9*2)*2²*(5*(4+10)*2-5*8+(2*4*(1+1))) = 1968.585278823348<br>
+ 
+ Example Operation:
+ StringCalculator calculator = new StringCalculator();
+ String operation = "√(9*2)*2²*(5*(4+10)*2-5*8+(2*4*(1+1)))";
+ String result = calculator.calculate(operation);
+ System.out.println(operation + " = " + result);
+ 
+ #Output:<br>
+ √(9*2)*2²*(5*(4+10)*2-5*8+(2*4*(1+1))) = 1968.585278823348<br>
