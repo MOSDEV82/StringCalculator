@@ -14,8 +14,8 @@ Calculates an operation inside of a String variable.
 # How it works...
 
  Preparing: Remove spaces<br>
- 1.: Remove brackets... And calculate inside of bracket\n
- 2.: Calculate Operations with one value (eg. pi) or one value and one operator (eg. 4² or √9)
- 3.: Calculate Multiplication, Division, Modulu first!
- 4.: Calculate Addition and Subtraction
- Output: √(9*2)*2²*(5*(4+10)*2-5*8+(2*4*(1+1))) = 1968.585278823348
+ 1.: Remove brackets... And calculate inside of bracket<br>
+ 2.: Calculate Operations with one value (eg. pi) or one value and one operator (eg. 4² or √9)<br>
+ 3.: Calculate Multiplication, Division, Modulu first!<br>
+ 4.: Calculate Addition and Subtraction<br>
+ Output: √(9*2)*2²*(5*(4+10)*2-5*8+(2*4*(1+1))) = 1968.585278823348<br>
