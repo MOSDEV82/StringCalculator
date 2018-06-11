@@ -24,7 +24,7 @@ Calculates an operation inside of a String variable.
  
  # Example Operation:
  StringCalculator calculator = new StringCalculator();<br>
- String operation = "√(9x2)x2²x(5x(4+10)x2-5x8+(2x4x(1+1)))";<br>
+ String operation = "√(9**2)x2²x(5x(4+10)x2-5x8+(2x4x(1+1)))";<br>
  String result = calculator.calculate(operation);<br>
  System.out.println(operation + " = " + result);<br>
 
